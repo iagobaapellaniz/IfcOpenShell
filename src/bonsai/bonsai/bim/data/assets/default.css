@@ -62,39 +62,39 @@ text.large, tspan.large { /* 3.5mm */ font-size: 5.78px; }
 text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
 text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
-.material-blank { fill: white; }
-.material-demolish { fill: url(#demolish); }
-.material-steel { fill: url(#steel); }
-.material-diagonal1 { fill: url(#diagonal1); }
-.material-diagonal2 { fill: url(#diagonal2); }
-.material-diagonal3 { fill: url(#diagonal3); }
-.material-square1 { fill: url(#square1); }
-.material-square2 { fill: url(#square2); }
-.material-square3 { fill: url(#square3); }
-.material-recth1 { fill: url(#recth1); }
-.material-recth2 { fill: url(#recth2); }
-.material-recth3 { fill: url(#recth3); }
-.material-rectv1 { fill: url(#rectv1); }
-.material-rectv2 { fill: url(#rectv2); }
-.material-rectv3 { fill: url(#rectv3); }
-.material-tile1 { fill: url(#tile1); }
-.material-tile2 { fill: url(#tile2); }
-.material-tile3 { fill: url(#tile3); }
-.material-board1 { fill: url(#board1); }
-.material-board2 { fill: url(#board2); }
-.material-board3 { fill: url(#board3); }
-.material-crosshatch1 { fill: url(#crosshatch1); }
-.material-crosshatch2 { fill: url(#crosshatch2); }
-.material-crosshatch3 { fill: url(#crosshatch3); }
-.material-brick { fill: url(#brick); }
-.material-earth { fill: url(#earth); }
-.material-glass { fill: url(#glass); }
-.material-liquid { fill: url(#liquid); }
-.material-grass { fill: url(#grass); }
-.material-honeycomb { fill: url(#honeycomb); }
-.material-wood { fill: url(#wood); }
-.material-sand { fill: url(#sand); }
-.material-concrete { fill: url(#concrete); stroke-width: 0.5; }
+.material-blank, .layer-material-blank, .layer-material-category-blank { fill: white; }
+.material-demolish, .layer-material-demolish, .layer-material-category-demolish { fill: url(#demolish); }
+.material-steel, .layer-material-steel, .layer-material-category-steel { fill: url(#steel); }
+.material-diagonal1, .layer-material-diagonal1, .layer-material-category-diagonal1 { fill: url(#diagonal1); }
+.material-diagonal2, .layer-material-diagonal2, .layer-material-category-diagonal2 { fill: url(#diagonal2); }
+.material-diagonal3, .layer-material-diagonal3, .layer-material-category-diagonal3 { fill: url(#diagonal3); }
+.material-square1, .layer-material-square1, .layer-material-category-square1 { fill: url(#square1); }
+.material-square2, .layer-material-square2, .layer-material-category-square2 { fill: url(#square2); }
+.material-square3, .layer-material-square3, .layer-material-category-square3 { fill: url(#square3); }
+.material-recth1, .layer-material-recth1, .layer-material-category-recth1 { fill: url(#recth1); }
+.material-recth2, .layer-material-recth2, .layer-material-category-recth2 { fill: url(#recth2); }
+.material-recth3, .layer-material-recth3, .layer-material-category-recth3 { fill: url(#recth3); }
+.material-rectv1, .layer-material-rectv1, .layer-material-category-rectv1 { fill: url(#rectv1); }
+.material-rectv2, .layer-material-rectv2, .layer-material-category-rectv2 { fill: url(#rectv2); }
+.material-rectv3, .layer-material-rectv3, .layer-material-category-rectv3 { fill: url(#rectv3); }
+.material-tile1, .layer-material-tile1, .layer-material-category-tile1 { fill: url(#tile1); }
+.material-tile2, .layer-material-tile2, .layer-material-category-tile2 { fill: url(#tile2); }
+.material-tile3, .layer-material-tile3, .layer-material-category-tile3 { fill: url(#tile3); }
+.material-board1, .layer-material-board1, .layer-material-category-board1 { fill: url(#board1); }
+.material-board2, .layer-material-board2, .layer-material-category-board2 { fill: url(#board2); }
+.material-board3, .layer-material-board3, .layer-material-category-board3 { fill: url(#board3); }
+.material-crosshatch1, .layer-material-crosshatch1, .layer-material-category-crosshatch1 { fill: url(#crosshatch1); }
+.material-crosshatch2, .layer-material-crosshatch2, .layer-material-category-crosshatch2 { fill: url(#crosshatch2); }
+.material-crosshatch3, .layer-material-crosshatch3, .layer-material-category-crosshatch3 { fill: url(#crosshatch3); }
+.material-brick, .layer-material-brick, .layer-material-category-brick { fill: url(#brick); }
+.material-earth, .layer-material-earth, .layer-material-category-earth { fill: url(#earth); }
+.material-glass, .layer-material-glass, .layer-material-category-glass { fill: url(#glass); }
+.material-liquid, .layer-material-liquid, .layer-material-category-liquid { fill: url(#liquid); }
+.material-grass, .layer-material-grass, .layer-material-category-grass { fill: url(#grass); }
+.material-honeycomb, .layer-material-honeycomb, .layer-material-category-honeycomb { fill: url(#honeycomb); }
+.material-wood, .layer-material-wood, .layer-material-category-wood { fill: url(#wood); }
+.material-sand, .layer-material-sand, .layer-material-category-sand { fill: url(#sand); }
+.material-concrete, .layer-material-concrete, .layer-material-category-concrete { fill: url(#concrete); stroke-width: 0.5; }
 .IfcSpace { fill: none; stroke: none; }
 .PredefinedType-STUD { stroke: black; stroke-width: 1; }
 .PredefinedType-WOOD { fill: url(#wood); stroke: black; stroke-width: 0.5; }
