@@ -63,9 +63,26 @@ text.regular, tspan.regular { /* 2.5mm */ font-size: 4.13px; }
 text.small, tspan.small { /* 1.8mm */ font-size: 2.97px; }
 text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-blank { fill: white; }
+.material-demolish { fill: url(#demolish); }
+.material-steel { fill: url(#steel); }
 .material-diagonal1 { fill: url(#diagonal1); }
 .material-diagonal2 { fill: url(#diagonal2); }
 .material-diagonal3 { fill: url(#diagonal3); }
+.material-square1 { fill: url(#square1); }
+.material-square2 { fill: url(#square2); }
+.material-square3 { fill: url(#square3); }
+.material-recth1 { fill: url(#recth1); }
+.material-recth2 { fill: url(#recth2); }
+.material-recth3 { fill: url(#recth3); }
+.material-rectv1 { fill: url(#rectv1); }
+.material-rectv2 { fill: url(#rectv2); }
+.material-rectv3 { fill: url(#rectv3); }
+.material-tile1 { fill: url(#tile1); }
+.material-tile2 { fill: url(#tile2); }
+.material-tile3 { fill: url(#tile3); }
+.material-board1 { fill: url(#board1); }
+.material-board2 { fill: url(#board2); }
+.material-board3 { fill: url(#board3); }
 .material-crosshatch1 { fill: url(#crosshatch1); }
 .material-crosshatch2 { fill: url(#crosshatch2); }
 .material-crosshatch3 { fill: url(#crosshatch3); }
@@ -75,6 +92,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 8.25px; }
 .material-liquid { fill: url(#liquid); }
 .material-grass { fill: url(#grass); }
 .material-honeycomb { fill: url(#honeycomb); }
+.material-wood { fill: url(#wood); }
 .material-sand { fill: url(#sand); }
 .material-concrete { fill: url(#concrete); stroke-width: 0.5; }
 .IfcSpace { fill: none; stroke: none; }
